@@ -11,11 +11,6 @@ if menu == "Home":
     st.image("logo.png")
     st.write("### PD Pasar Surya - Analisis Harga Bahan Pokok")
     st.write("Dashboard ini menyajikan informasi harga bahan pokok dari berbagai pasar di Surabaya.")
-    
-    if st.button("Masuk ke Dashboard"):
-        menu = "Dashboard"
-        st.experimental_rerun()
-
 elif menu == "Profil Perusahaan":
     st.title("Profil Perusahaan")
     st.image("logo_perusahaan.png", caption="Logo Perusahaan")
