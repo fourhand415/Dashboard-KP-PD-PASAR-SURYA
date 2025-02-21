@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load data
-file_path = "E:/ITS/KP PD Pasar Surya/Bapok/Data_Gabungan.xlsx"
+file_path = "Data_Gabungan.xlsx"
 df = pd.read_excel(file_path, dtype=str, engine="openpyxl")
 
 # Pastikan kolom "Pasar" ada
@@ -83,4 +83,4 @@ if not df_filtered.empty:
 else:
     st.write("Data tidak tersedia untuk pasar yang dipilih.")
 
-st.write("Dashboard ini dibuat oleh Farhan - KP PD PASAR SURYA")
+st.write("Dashboard ini dibuat oleh Peserta Magang - KP PD PASAR SURYA")
