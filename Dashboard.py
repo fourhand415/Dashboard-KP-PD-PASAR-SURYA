@@ -122,6 +122,6 @@ elif menu == "Dashboard":
     else:
         st.write("Data tidak tersedia untuk pasar yang dipilih.")
     
-    st.write("Dashboard ini dibuat dengan Streamlit - Versi Ditingkatkan!")
+    st.write("Dashboard by Farhan & Gilang")
 
 
