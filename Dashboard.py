@@ -45,10 +45,10 @@ elif menu == "Profil Tim":
     st.markdown("<h4 style='text-align: center;'>Anggota Tim</h4>", unsafe_allow_html=True)
     col1, col2 = st.columns(2)
     with col1:
-        st.image("farhan.JPG", caption="Muhammad Farhan Lucky Putra", use_container_width="True")
+        st.image("farhan.png", caption="Muhammad Farhan Lucky Putra", use_container_width="True")
         st.markdown("<p style='text-align: center;'><strong>NRP:</strong> 5003221001</p>", unsafe_allow_html=True)
     with col2:
-        st.image("gilang.JPG", caption="Gilang Hanif Hendrawan", use_container_width="True")
+        st.image("gilang.png", caption="Gilang Hanif Hendrawan", use_container_width="True")
         st.markdown("<p style='text-align: center;'><strong>NRP:</strong> 500221060</p>", unsafe_allow_html=True)
 
 elif menu == "Data Pasar":
